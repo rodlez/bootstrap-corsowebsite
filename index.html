@@ -13,7 +13,9 @@
     <link rel="icon" href="images/favicon.png" />
     <title>Corso Training</title>
   </head>
-  <body>
+  
+  <!-- id home in the body to go all the way up when click in the footer Home link -->
+  <body id="home">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -637,6 +639,45 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer, 3col text, links, social -->
+    <footer class="footer mt-4 text-bg-dark py-5">
+      <div class="container">
+        <div class="row text-center">
+          <!-- Text-->
+          <div class="col-md-4">
+            <h5 class="footer-title">Lorem Ipsum</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos
+              possimus aliquid omnis commodi. Dignissimos, quam obcaecati? Fugit
+              non ex repellendus?
+            </p>
+          </div>
+          <!-- Links, using # in href will go to the id section of each one -->
+          <div class="col-md-4">
+            <h5 class="footer-title">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#discover">Discover</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#takeaways">Takeaways</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+          </div>
+          <!-- Social -->
+          <div class="col-md-4">
+            <h5 class="footer-title">Connect</h5>
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#"><i class="fab fa-facebook fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-twitter fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-linkedin fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-3x text-white"></i></a>
+              <a href="#"><i class="fab fa-youtube fa-3x text-white"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
