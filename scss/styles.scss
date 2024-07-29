@@ -1,3 +1,13 @@
+// transition when the navbar becomes navbar-sticky after scroll down
+.navbar {
+    transition: all 0.5s ease-in-out;
+  }
+
+// Add transparency to the navbar-sticky
+.navbar-sticky {
+    opacity: 0.95;
+}
+
 .header {
     min-height: 1000px;
     // use a gradient with opacity 80% in front of the image background 
